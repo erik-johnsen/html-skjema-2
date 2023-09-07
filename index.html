@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skjema</title>
+
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registrer deg som privatbruker</div>
+        <div class="textinput">
+            <form>
+                <div class="textinput__telefonnummer">
+                    <div class="textinput__margin"></div>
+                    <label>
+                        <div>Telefonnummer</div>
+                        <input type="number" name="telefonnummer" placeholder="Fyll inn ditt telefonnummer" required>
+                    </label>
+                </div>
+                <div class="textinput__navn">
+                    <div class="textinput__margin"></div>
+                    <label>
+                        <div>Navn</div>
+                        <input type="text" name="navn" placeholder="Ola Nordmann" required>
+                    </label>
+                </div>
+                <div class="textinput__adresse">
+                    <div class="textinput__margin"></div>
+                    <label>
+                        <div>Adresse</div>
+                        <input type="text" name="adresse" required>
+                    </label>
+                </div>
+                <div class="textinput__postnummer">
+                    <div class="textinput__margin"></div>
+                    <label>
+                        <div>Postnummer</div>
+                        <input type="number" name="postnummer" required>
+                    </label>
+                </div>
+                <div class="textinput__poststed">
+                    <div class="textinput__margin"></div>
+                    <label>
+                        <div>Poststed</div>
+                        <input type="text" name="poststed" required>
+                    </label>
+                </div>
+                <div class="textinput__epost">
+                    <div class="textinput__margin"></div>
+                    <label>
+                        <div>E-post</div>
+                        <input type="email" name="epost" placeholder="ola.nordmann@mail.com" required>
+                    </label>
+                </div>
+                <div class="textinput__passord">
+                    <div class="textinput__margin"></div>
+                    <label>
+                        <div>Passord (minst 8 tegn)</div>
+                        <input type="text" name="passord" minlength="8" required placeholder="********">
+                    </label>
+                </div>
+            </form>
+        </div>
+        <button class="container__button">
+            <div>Registerer meg!</div>
+        </button>
+    </div>
+    
+</body>
+</html>
