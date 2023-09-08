@@ -7,6 +7,15 @@
 
     <link rel="stylesheet" href="style.css">    
     <link rel="stylesheet" href="reset.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+        </style>
+    
+    
+    
+
+
 </head>
 <body>
     <div class="container">
@@ -16,54 +25,56 @@
                 <div class="textinput__telefonnummer">
                     <div class="textinput__margin"></div>
                     <label>
-                        <div>Telefonnummer</div>
-                        <input type="number" name="telefonnummer" placeholder="Fyll inn ditt telefonnummer" required>
+                        <h2>Telefonnummer</h2>
+                        <input class="field" type="number" name="telefonnummer" placeholder="Fyll inn ditt telefonnummer" required>
                     </label>
                 </div>
                 <div class="textinput__navn">
                     <div class="textinput__margin"></div>
                     <label>
-                        <div>Navn</div>
-                        <input type="text" name="navn" placeholder="Ola Nordmann" required>
+                        <h2>Navn</h2>
+                        <input class="field" type="text" name="navn" placeholder="Ola Nordmann" required>
                     </label>
                 </div>
                 <div class="textinput__adresse">
                     <div class="textinput__margin"></div>
                     <label>
-                        <div>Adresse</div>
-                        <input type="text" name="adresse" required>
+                        <h2>Adresse</h2>
+                        <input class="field" type="text" name="adresse" required>
                     </label>
                 </div>
                 <div class="textinput__postnummer">
                     <div class="textinput__margin"></div>
                     <label>
-                        <div>Postnummer</div>
-                        <input type="number" name="postnummer" required>
+                        <h2>Postnummer</h2>
+                        <input class="textinput__postnummer-input field" type="number" name="postnummer" maxlength="4" required>
                     </label>
                 </div>
                 <div class="textinput__poststed">
                     <div class="textinput__margin"></div>
                     <label>
-                        <div>Poststed</div>
-                        <input type="text" name="poststed" required>
+                        <h2>Poststed</h2>
+                        <input class="field" type="text" name="poststed" required>
                     </label>
                 </div>
                 <div class="textinput__epost">
                     <div class="textinput__margin"></div>
                     <label>
-                        <div>E-post</div>
-                        <input type="email" name="epost" placeholder="ola.nordmann@mail.com" required>
+                        <h2>E-post</h2>
+                        <input class="field" type="email" name="epost" placeholder="ola.nordmann@mail.com" required>
                     </label>
                 </div>
                 <div class="textinput__passord">
                     <div class="textinput__margin"></div>
                     <label>
-                        <div>Passord (minst 8 tegn)</div>
-                        <input type="text" name="passord" minlength="8" required placeholder="********">
+                        <h2>Passord (minst 8 tegn)</h2>
+                        <input class="field" type="text" name="passord" minlength="8" required placeholder="********">
                     </label>
                 </div>
             </form>
         </div>
+
+        <div class="tilbud">Jeg ønsker å motta tilbud, nyheter og informasjon på e-post</div>
         <button class="container__button">
             <div>Registerer meg!</div>
         </button>
