@@ -35,9 +35,10 @@ h2 {
 
 .container__button {
     margin-top: 30px;
+    border-radius: 1px;
     background-color: rgb(246, 193, 2);
     width: 60%; 
-    padding: 1px;
+    padding: 10px;
 }
 
 .container__button :hover {
