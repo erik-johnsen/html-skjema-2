@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "Inter" "sans-sarif";
+    font-family: 'Inter';
     font-weight: 400;
     src: url(../html-skjema-2/assets/Inter/Inter-Regular.woff2);
 }
 
 @font-face {
-    font-family: "Inter" "sans-sarif";
+    font-family: 'Inter';
     font-weight: 300;
     src: url(../html-skjema-2/assets/Inter/Inter-Medium.woff2);
 }
 
 @font-face {
-    font-family: "Inter" "sans-sarif";
+    font-family: 'Inter';
     font-weight: 500;
     src: url(../html-skjema-2/assets/Inter/Inter-Bold.woff2);
 }
